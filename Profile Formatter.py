@@ -13,8 +13,7 @@ client = AzureOpenAI(
 )
 
 DEPLOYMENT_NAME = st.secrets["DEPLOYMENT_NAME"]
-st.write(f"Deployment Name: {DEPLOYMENT_NAME}")
-
+st.success("Azure OpenAI configuration loaded.")
 
 # -----------------------------
 # Helper Functions
