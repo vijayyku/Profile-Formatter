@@ -1,5 +1,21 @@
-.streamlit/secrets.toml
 
+# Streamlit
+./secrets.toml
+
+# Python
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
