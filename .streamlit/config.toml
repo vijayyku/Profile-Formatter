@@ -1,3 +1,0 @@
-AZURE_OPENAI_KEY = "123456abcdef"
-AZURE_OPENAI_ENDPOINT = "https://my-openai-resource.openai.azure.com/"
-DEPLOYMENT_NAME = "gpt-4o"
