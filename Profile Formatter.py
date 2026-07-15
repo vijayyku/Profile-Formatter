@@ -2,7 +2,7 @@ import streamlit as st
 from docx import Document
 from io import BytesIO
 from openai import AzureOpenAI
-
+import logging
 
 # Configure logging
 logging.basicConfig(
