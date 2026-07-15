@@ -1,22 +1,5 @@
-
-# Streamlit Secrets
 .streamlit/secrets.toml
-
-# Python Cache
+app.log
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Virtual Environments
-venv/
-.venv/
-env/
-
-# IDE Files
-.vscode/
-.idea/
-
-# OS Files
-.DS_Store
-Thumbs.db
+.env
