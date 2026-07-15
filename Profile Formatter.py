@@ -3,6 +3,17 @@ from docx import Document
 from io import BytesIO
 from openai import AzureOpenAI
 
+
+# Configure logging
+logging.basicConfig(
+    filename="app.log",
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s"
+)
+
+logging.info("Application started")
+
+
 # -----------------------------
 # Azure OpenAI Configuration
 # -----------------------------
