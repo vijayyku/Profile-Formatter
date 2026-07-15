@@ -3,16 +3,22 @@ from docx import Document
 from io import BytesIO
 from openai import AzureOpenAI
 import logging
+from pathlib import Path
 
-# Configure logging
+LOG_DIR = Path("logs")
+LOG_DIR.mkdir(exist_ok=True)
+
+LOG_FILE = LOG_DIR / "app.log"
+
 logging.basicConfig(
-    filename="app.log",
+    filename=str(LOG_FILE),
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-logging.info("Application started")
+logger = logging.getLogger(__name__)
 
+logger.info("Application started")
 
 # -----------------------------
 # Azure OpenAI Configuration
