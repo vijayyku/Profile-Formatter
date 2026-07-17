@@ -6,7 +6,7 @@ import logging
 from pathlib import Path
 
 
-st.title("My new app")
+st.title("Profile Formatter App developed By Vijay")
 st.write("Let's start building!")
 
 LOG_DIR = Path("logs")
