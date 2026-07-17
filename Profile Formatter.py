@@ -5,6 +5,10 @@ from openai import AzureOpenAI
 import logging
 from pathlib import Path
 
+
+st.title("My new app")
+st.write("Let's start building!")
+
 LOG_DIR = Path("logs")
 LOG_DIR.mkdir(exist_ok=True)
 
